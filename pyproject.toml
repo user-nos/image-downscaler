@@ -1,0 +1,15 @@
+[project]
+name = "image-downscaler"
+version = "0.1.0"
+dependencies = [
+    "Pillow",
+]
+
+[project.scripts]
+# This defines the command name you will type in your terminal
+# Format: command-name = "filename:function_name"
+image-downscaler = "photodownscaler:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
