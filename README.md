@@ -1,5 +1,5 @@
 # image-downscaler
-A python script i wrote to downscale pictures to a specific size while keeping the aspect ratio.
+A python script to downscale pictures to a specific size while keeping the aspect ratio.
 
 ## About
 The python script downscales either a picture/photo directly or an entire folder/directory depending on the path you have provided.  
